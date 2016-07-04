@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+	<!-- Effects -->
+	
+	<model>
+		<name>Fire</name>
+		<path>Aircraft/MQ-9/Models/Effects/Engine/Fire.xml</path>
+		<condition>
+			<equals>
+				<property>sim/crashed</property>
+				<value type="bool">true</value>
+			</equals>
+		</condition>
+		<offsets>
+			<x-m> 4.00</x-m>
+			<y-m> 0.00</y-m>
+			<z-m> 1.20</z-m>
+			<heading-deg>0</heading-deg>
+			<roll-deg>0</roll-deg>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Aircraft/MQ-9/Models/Effects/Engine/Smoke.xml</path>
+		<offsets>
+			<x-m> 3.9541</x-m>
+			<y-m> 0.0000</y-m>
+			<z-m> 1.1657</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Aircraft/MQ-9/Models/Effects/Wing/Condensation.xml</path>
+		<offsets>
+			<x-m> 0.7973</x-m>
+			<y-m>11.6233</y-m>
+			<z-m> 0.4397</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Aircraft/MQ-9/Models/Effects/Wing/Condensation.xml</path>
+		<offsets>
+			<x-m>  0.7973</x-m>
+			<y-m>-11.6233</y-m>
+			<z-m>  0.4397</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<path>Aircraft/Generic/Effects/tyre-smoke-nose.xml</path>
+		<name>tyre-smoke-n</name>
+		<offsets>
+			<x-m>-3.9170</x-m>
+			<y-m> 0.0000</y-m>
+			<z-m>-1.3097</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<path>Aircraft/Generic/Effects/tyre-smoke-port.xml</path>
+		<name>tyre-smoke-p</name>
+		<offsets>
+			<x-m> 0.2121</x-m>
+			<y-m>-1.3425</y-m>
+			<z-m>-1.3323</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<path>Aircraft/Generic/Effects/tyre-smoke-stbd.xml</path>
+		<name>tyre-smoke-s</name>
+		<offsets>
+			<x-m> 0.2121</x-m>
+			<y-m> 1.3425</y-m>
+			<z-m>-1.3323</z-m>
+		</offsets>
+	</model>
+
+</PropertyList>

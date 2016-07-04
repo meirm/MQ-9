@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<fx>
+
+		<engine>
+			<name>Engine starting</name>
+			<mode>looped</mode>
+			<path>Aircraft/MQ-9/Sounds/Startup.wav</path>
+			<condition>
+				<property>engines/engine[0]/starter</property>
+			</condition>
+			<volume>
+				<property>engines/engine[0]/n2</property>
+				<type>log</type>
+				<factor>0.6</factor>
+				<offset>0.5</offset>
+			</volume>
+			<volume>
+				<property>sim/sound/cabin</property>
+			</volume>
+			<pitch>
+				<property>engines/engine[0]/n2</property>
+				<type>log</type>
+				<factor>0.4</factor>
+				<offset>0.1</offset>
+			</pitch>
+		</engine>
+
+		<engine>
+			<name>Engine starting plus</name>
+			<mode>once</mode>
+			<path>Sounds/turbine_start.wav</path>
+			<condition>
+				<property>engines/engine[0]/starter</property>
+			</condition>
+			<volume>
+				<property>sim/sound/cabin</property>
+				<factor>0.4</factor>
+			</volume>
+		</engine>
+
+		<engine>
+			<name>Engine running</name>
+			<mode>looped</mode>
+			<path>Aircraft/MQ-9/Sounds/Running.wav</path>
+			<condition>
+				<or>
+					<greater-than>
+						<property>engines/engine[0]/n2</property>
+						<value type="double">19.9</value>
+					</greater-than>
+					<and>
+						<not>
+							<property>engines/engine[0]/starter</property>
+						</not>
+						<greater-than>
+							<property>engines/engine[0]/n2</property>
+							<value type="double">1</value>
+						</greater-than>
+					</and>
+				</or>
+			</condition>
+			<volume>
+				<property>engines/engine[0]/n2</property>
+				<type>log</type>
+				<factor>0.4</factor>
+				<offset>0.2</offset>
+			</volume>
+			<volume>
+				<property>sim/sound/E_volume</property>
+			</volume>
+			<pitch>
+				<property>engines/engine[0]/n2</property>
+				<factor>0.004</factor>
+				<offset>0.8</offset>
+			</pitch>
+		</engine>
+
+		<engine>
+			<name>Engine running plus</name>
+			<mode>looped</mode>
+			<path>Aircraft/MQ-9/Sounds/Running.wav</path>
+			<condition>
+				<property>engines/engine[0]/running</property>
+			</condition>
+			<volume>
+				<property>engines/engine[0]/n2</property>
+				<type>log</type>
+				<factor>0.6</factor>
+				<offset>0.5</offset>
+			</volume>
+			<volume>
+				<property>sim/sound/cabin</property>
+			</volume>
+			<pitch>
+				<property>engines/engine[0]/n2</property>
+				<type>log</type>
+				<factor>0.4</factor>
+				<offset>0.1</offset>
+			</pitch>
+		</engine>
+
+		<engine>
+			<name>Turbine</name>
+			<mode>looped</mode>
+			<path>Sounds/turbine_loop.wav</path>
+			<property>engines/engine[0]/n2</property>
+			<volume>
+				<property>sim/sound/cabin</property>
+				<factor>0.3</factor>
+			</volume>
+			<pitch>
+				<property>engines/engine[0]/n2</property>
+				<offset>1.0</offset>
+				<factor>0.001</factor>
+			</pitch>
+		</engine>
+
+		<engine>
+			<name>Engine off</name>
+			<mode>once</mode>
+			<path>Sounds/turbine_shutdown.wav</path>
+			<condition>
+				<property>engines/engine[0]/cutoff</property>
+			</condition>
+			<volume>
+				<property>sim/sound/cabin</property>
+				<factor>0.3</factor>
+			</volume>
+		</engine>
+
+		<squeal>
+			<name>Squeal</name>
+			<path>Sounds/squeal.wav</path>
+			<condition>
+				<or>
+					<property>gear/gear[0]/wow</property>
+					<property>gear/gear[1]/wow</property>
+					<property>gear/gear[2]/wow</property>
+				</or>
+			</condition>
+			<volume>
+				<property>velocities/speed-down-fps</property>
+				<factor>0.05</factor>
+			</volume>
+			<volume>
+				<property>velocities/airspeed-kt</property>
+				<factor>0.01</factor>
+			</volume>
+			<volume>
+				<internal>dt_stop</internal>
+				<factor>0.05</factor>
+				<max>1.0</max>
+			</volume>
+			<pitch>
+				<property>velocities/airspeed-kt</property>
+				<factor>0.0025</factor>
+				<offset>1.2</offset>
+			</pitch>
+		</squeal>
+
+		<crash>
+			<name>Crash</name>
+			<condition>
+			<equals>
+				<property>sim/crashed</property>
+				<value type="bool">true</value>
+			</equals>
+			</condition>
+			<path>Sounds/crash.wav</path>
+		</crash>
+
+	</fx>
+
+</PropertyList>

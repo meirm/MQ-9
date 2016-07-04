@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+  
+	<sim>
+		
+		<model>
+			<livery>
+				<name type="string">United States Air Force</name>
+				<texture>Liveries/Default.jpg</texture>
+			</livery>
+		</model>
+		
+	</sim>
+
+</PropertyList>

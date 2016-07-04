@@ -1,0 +1,63 @@
+<PropertyList>
+	
+	<model>
+		<path>Aircraft/MQ-9/Models/Stores/AGM-114/AGM-114-1.xml</path>
+		<offsets>
+			<x-m>-0.0982</x-m>
+			<y-m>-2.2679</y-m>
+			<z-m>-0.1652</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+    
+	<model>
+		<path>Aircraft/MQ-9/Models/Stores/AGM-114/AGM-114-2.xml</path>
+		<offsets>
+			<x-m>-0.0982</x-m>
+			<y-m>-1.9273</y-m>
+			<z-m>-0.1652</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+    
+	<model>
+		<path>Aircraft/MQ-9/Models/Stores/AGM-114/AGM-114-5.xml</path>
+		<offsets>
+			<x-m>-0.0982</x-m>
+			<y-m> 1.9273</y-m>
+			<z-m>-0.1652</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Aircraft/MQ-9/Models/Stores/AGM-114/AGM-114-6.xml</path>
+		<offsets>
+			<x-m>-0.0982</x-m>
+			<y-m> 2.2679</y-m>
+			<z-m>-0.1652</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+    
+	<model>
+		<path>Aircraft/MQ-9/Models/Stores/GBU-12/GBU-12-3.xml</path>
+		<offsets>
+			<x-m>-0.6217</x-m>
+			<y-m>-1.2284</y-m>
+			<z-m> 0.0517</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+    
+	<model>
+		<path>Aircraft/MQ-9/Models/Stores/GBU-12/GBU-12-4.xml</path>
+		<offsets>
+			<x-m>-0.6217</x-m>
+			<y-m> 1.2284</y-m>
+			<z-m> 0.0517</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+	
+</PropertyList>

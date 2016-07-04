@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+
+<PropertyList include="Aircraft/Generic/Human/Include/walker-include.xml">
+
+	<sim>
+	
+		<description>General Atomics MQ-9 Reaper bombable</description>
+		<aircraft-version>1.2</aircraft-version>
+		<author>Petar Jedvaj</author>
+		<status>Alpha</status>
+		<rating>
+			<FDM type="int">1</FDM>
+			<systems type="int">1</systems>
+			<cockpit type="int">1</cockpit>
+			<model type="int">1</model>
+		</rating>
+		<flight-model>jsb</flight-model>
+		<aero>MQ-9-JSBSim</aero>
+		
+		<startup>
+			<splash-texture>Aircraft/MQ-9/Splash.png</splash-texture>
+		</startup>
+	
+	    <model>
+			<path>Aircraft/MQ-9/Models/MQ-9.xml</path>
+			<livery>
+				<file type="string"/>
+			</livery>
+			<turret n="0">
+        		<heading>0</heading>
+        		<pitch>10</pitch>
+			</turret>
+	        <walker>
+	            <gender>1</gender>
+	            <altitude-ft>-5.0</altitude-ft>
+	        </walker>
+            <map>
+                <default_exit>
+                    <x-offset-m type="float">-0.35</x-offset-m>
+                    <y-offset-m type="float">-0.84</y-offset-m>
+                </default_exit>
+            </map>
+	    </model>
+		
+		<submodels>
+			<serviceable type="bool">1</serviceable>
+			<path>Aircraft/MQ-9/Models/Submodels.xml</path>
+		</submodels>
+		
+		<sound>
+			<path>Aircraft/MQ-9/Sounds/Sounds.xml</path>
+		</sound>
+		
+		<systems>
+			<electrical>
+				<path>Aircraft/Generic/generic-electrical.xml</path>
+			</electrical>
+		</systems>
+		
+		<mp-systems>
+			<radar-enabled type="bool">true</radar-enabled>
+			<ecm-rwr-enabled type="bool">true</ecm-rwr-enabled>
+			<combat-enabled type="bool">true</combat-enabled>
+		</mp-systems>
+		
+		<instrumentation>
+			<radar-altimeter>
+				<limit-bug type="double">250</limit-bug>
+			</radar-altimeter>
+			
+			<warnings>
+				<master-caution type="bool">0</master-caution>
+			</warnings>
+		</instrumentation>
+		
+		<!-- HUD -->
+		<hud>
+			<path n="1">Aircraft/MQ-9/HUD.xml</path>
+			<visibility n="1">true</visibility>
+   
+			<palette>
+				<color n="0">
+					<alpha type="float">0.85</alpha>
+					<antialiased type="bool">true</antialiased>
+					<brightness type="float">0.85</brightness>
+					<transparent type="bool">true</transparent>
+					<red type="float">0.38</red>
+					<green type="float">1.0</green>
+					<blue type="float">0.22</blue>
+				</color>
+				<color n="1">
+					<alpha type="float">0.85</alpha>
+					<antialiased type="bool">true</antialiased>
+					<brightness type="float">0.85</brightness>
+					<transparent type="bool">true</transparent>
+					<red type="float">1.0</red>
+					<green type="float">0.2</green>
+					<blue type="float">0.0</blue>
+				</color>
+			</palette>
+   
+		</hud>
+		
+		<!-- View -->
+		
+		<view n="100">
+			<name>Sensor View</name>
+			<type>lookfrom</type>
+			<internal archive="y">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
+				<pitch-offset-deg>-28</pitch-offset-deg>
+				<x-offset-m archive="y">  0.0000 </x-offset-m>
+				<y-offset-m archive="y"> -0.2792 </y-offset-m>
+				<z-offset-m archive="y"> -4.3564 </z-offset-m>
+				<default-field-of-view-deg> 70 </default-field-of-view-deg>
+				<limits>
+					<left>
+						<heading-max-deg>-179</heading-max-deg>
+						<x-offset-threshold-deg>0</x-offset-threshold-deg>
+						<x-offset-max-m>0</x-offset-max-m>
+					</left>
+					<right>
+						<heading-max-deg>179</heading-max-deg>
+						<x-offset-threshold-deg>0</x-offset-threshold-deg>
+						<x-offset-max-m>0</x-offset-max-m>
+					</right>
+					<enabled>1</enabled>
+				</limits>
+			</config>
+		</view>
+		
+		<!-- Menu -->
+
+		<menubar>
+			<default>
+				<menu n="100">
+					
+					<label>MQ-9</label>
+					<enabled type="bool">true</enabled>
+					
+					<item>
+						<label>Autostart</label>
+						<binding>
+							<command>property-toggle</command>
+							<property>controls/engines/start1</property>  
+						</binding>
+						<binding>
+							<command>property-toggle</command>
+							<property>controls/engines/run1</property>  
+						</binding>
+						<binding>
+							<command>property-toggle</command>
+							<property>controls/engines/abort1</property>
+						</binding>
+						<mod-up>
+							<binding>
+								<command>null</command>
+							</binding>
+						</mod-up>   
+					</item>
+					
+
+					<item>
+						<label>Select Livery</label>
+						<binding>
+							<command>nasal</command>
+							<script>aircraft.livery.dialog.toggle()</script>
+						</binding>
+					</item>
+					
+				</menu>
+			</default>
+		</menubar>
+		
+		<!-- Help -->
+
+		<help>
+			
+			<title>General Atomics MQ-9 Reaper</title>
+			
+			<key>
+				<name>1/2/3/4/5/6</name>
+				<desc>Select station</desc>
+			</key>
+			
+			<key>
+				<name>d</name>
+				<desc>Deselect all stations</desc>
+			</key>
+			
+			<key>
+				<name>f</name>
+				<desc>Release selected station</desc>
+			</key>
+
+			<line>MQ-9 > Autostart</line>
+			<line>MQ-9 > Select Livery</line>
+			<line>Move sensors with RMB in Sensor View</line>
+			<line>HUD will follow view</line>
+			<line>Parking brake is on</line>
+			
+		</help>
+		
+	</sim>
+	
+	<!-- Armament -->
+	
+	<fdm>
+		<jsbsim>
+			<systems>
+				<armament>
+					<station1>
+						<selected type="double">0</selected>
+					</station1>
+					<station2>
+						<selected type="double">0</selected>
+					</station2>
+					<station3>
+						<selected type="double">0</selected>
+					</station3>
+					<station4>
+						<selected type="double">0</selected>
+					</station4>
+					<station5>
+						<selected type="double">0</selected>
+					</station5>
+					<station6>
+						<selected type="double">0</selected>
+					</station6>
+				</armament>
+			</systems>
+		</jsbsim>
+	</fdm>
+
+	<!-- Keyboard -->
+
+	<input>
+		<keyboard>
+			
+			<key n="49">
+				<name>1</name>
+				<desc>Station 1</desc>
+				<binding>
+					 <command>property-assign</command>
+					<property>fdm/jsbsim/systems/armament/station1/selected</property>
+					<value>1</value>
+				</binding>
+			</key>
+
+			<key n="50">
+				<name>2</name>
+				<desc>Station 2</desc>
+				<binding>
+					<command>property-assign</command>
+					<property>fdm/jsbsim/systems/armament/station2/selected</property>
+					<value>1</value>
+				</binding>
+			</key>
+
+			<key n="51">
+				<name>3</name>
+				<desc>Station 3</desc>
+				<binding>
+					<command>property-assign</command>
+					<property>fdm/jsbsim/systems/armament/station3/selected</property>
+					<value>1</value>
+				</binding>
+			</key>
+
+			<key n="52">
+				<name>4</name>
+				<desc>Station 4</desc>
+				<binding>
+					<command>property-assign</command>
+					<property>fdm/jsbsim/systems/armament/station4/selected</property>
+					<value>1</value>
+				</binding>
+			</key>
+
+			<key n="53">
+				<name>5</name>
+				<desc>Station 5</desc>
+				<binding>
+					<command>property-assign</command>
+					<property>fdm/jsbsim/systems/armament/station5/selected</property>
+					<value>1</value>
+				</binding>
+			</key>
+
+			<key n="54">
+				<name>6</name>
+				<desc>Station 6</desc>
+				<binding>
+					<command>property-assign</command>
+					<property>fdm/jsbsim/systems/armament/station6/selected</property>
+					<value>1</value>
+				</binding>
+			</key>
+			
+			<key n="100">
+				<name>d</name>
+				<desc>Deselect all stations</desc>
+				<binding>
+					<command>property-assign</command>
+					<property>fdm/jsbsim/systems/armament/station1/selected</property>
+					<value type="int">0</value>
+				</binding>
+				<binding>
+					<command>property-assign</command>
+					<property>fdm/jsbsim/systems/armament/station2/selected</property>
+					<value type="int">0</value>
+				</binding>
+				<binding>
+					<command>property-assign</command>
+					<property>fdm/jsbsim/systems/armament/station3/selected</property>
+					<value type="int">0</value>
+				</binding>
+			</key>
+			
+			<key n="102">
+				<name>f</name>
+				<desc>Release selected store</desc>
+				<binding>
+					<command>property-assign</command>
+					<property>fdm/jsbsim/systems/armament/release</property>
+					<value>1</value>
+				</binding>
+				<mod-up>
+					<binding>
+						<command>property-assign</command>
+						<property>fdm/jsbsim/systems/armament/release</property>
+						<value>0</value> 
+					</binding>
+				</mod-up>
+			</key>
+
+		</keyboard>
+	</input>
+	
+	<!-- Engine -->
+
+	<controls>
+		<engines>
+			<run1 type="bool">true</run1>
+			<start1 type="bool">false</start1>
+			<abort1 type="bool">false</abort1>   	
+		</engines>
+  
+		<gear>
+			<brake-parking type="double">1</brake-parking>
+		</gear>
+	</controls>
+	
+	<!-- Systems -->
+	
+	<systems>
+		<electrical>
+			<outputs>
+				<comm n="0" type="float">28</comm>
+				<comm n="1" type="float">28</comm>
+			</outputs>
+		</electrical>
+	</systems>
+	
+	<!-- Instrumentation -->
+	
+	<instrumentation>
+		
+		<enav>
+			<selected type="int">3</selected>
+		</enav>
+		
+		<radar>
+			<range type="int" archive="y">20</range>
+			<range-factor type="double" archive="n">0.001888</range-factor>
+			<minimized type="bool" archive="y">false</minimized>
+			<selected type="int">3</selected>
+			<enabled type="bool">true</enabled>
+			<az-field type="double">120</az-field>
+			<range type="double">150</range>
+			<range-selected type="double">50</range-selected>
+			<radar2-range type="double">150</radar2-range>
+			<display-rdr type="bool">true</display-rdr>
+			<radar-standby type="int">3</radar-standby>
+			<mode>
+				<rws type="bool">true</rws>
+				<tws-auto type="bool">false</tws-auto>
+			</mode>
+		</radar>
+		
+		<radar2>
+			<sweep-width-m type="double">0.0844</sweep-width-m>
+			<range-width-m type="double">0.0846</range-width-m>
+			<radius-ppi-display-m type="double">0.0846</radius-ppi-display-m>
+			<hud-eye-dist-m type="double">0.766</hud-eye-dist-m>
+			<hud-radius-m type="double">0.071</hud-radius-m>
+			<hud-vertical-offset-m type="double">-0.025</hud-vertical-offset-m>
+		</radar2>
+		
+		<rwr>
+			<display-lighting-intens type="double">0.4</display-lighting-intens>
+			<symbology-lighting-intens type="double">1</symbology-lighting-intens>
+		</rwr>
+		
+	</instrumentation>
+	
+	<!-- Enviroment -->
+	
+	<environment>
+		<turbulence>
+			<use-cloud-turbulence>true</use-cloud-turbulence>
+		</turbulence>
+	</environment>
+	
+	<gear>
+		<gear n="0">
+			<tyre-smoke type="int">0</tyre-smoke>
+			<sprayspeed-ms type="double">0</sprayspeed-ms>
+			<spray-density type="double">0</spray-density>
+			<caster-angle-deg-damped type="double">0</caster-angle-deg-damped>
+		</gear>
+		<gear n="1">
+			<tyre-smoke type="int">0</tyre-smoke>
+			<sprayspeed-ms type="double">0</sprayspeed-ms>
+			<spray-density type="double">0</spray-density>
+		</gear>
+		<gear n="2">
+			<tyre-smoke type="int">0</tyre-smoke>
+			<sprayspeed-ms type="double">0</sprayspeed-ms>
+			<spray-density type="double">0</spray-density>
+		</gear>
+	</gear>
+	
+	<!-- Nasal -->
+		
+	<nasal>
+		
+		<Liveries>
+			<file>Aircraft/MQ-9/Nasal/Liveries.nas</file>
+		</Liveries>
+		
+		<Engine>
+			<file>Aircraft/MQ-9/Nasal/Engine.nas</file>
+			<module>MQ-9</module>
+		</Engine>
+		
+		<Lights>
+			<file>Aircraft/MQ-9/Nasal/Lights.nas</file>
+		</Lights>
+		
+		<HUD>
+			<file>Aircraft/MQ-9/Nasal/HUD.nas</file>
+		</HUD>
+		
+		<Tyresmoke>
+			<file>Aircraft/MQ-9/Nasal/Tyresmoke.nas</file>
+		</Tyresmoke>
+		
+		<Crash>
+			<file>Aircraft/MQ-9/Nasal/Crash.nas</file>
+		</Crash>
+		
+		<Turret>
+			<file>Aircraft/MQ-9/Nasal/Turret.nas</file>
+		</Turret>
+		
+		<rwr>
+			<file>Aircraft/Instruments-3d/rwr/rwr.nas</file>
+		</rwr>
+		
+		<radar2>
+			<file>Aircraft/Instruments-3d/radar2/radar2.nas</file>
+		</radar2>
+		
+		<Radar>
+			<file>Aircraft/MQ-9/Nasal/Radar.nas</file> 
+		</Radar>
+		
+		<ENAV>
+			<file>Aircraft/MQ-9/Nasal/ENAV.nas</file>
+		</ENAV>
+		
+	</nasal>
+ 
+</PropertyList>

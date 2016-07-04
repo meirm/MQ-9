@@ -1,0 +1,25 @@
+<PropertyList>
+
+	<path>AGM-114.ac</path>
+	
+    <animation>
+        <enable-hot type="bool">false</enable-hot>
+    </animation>
+    
+    <animation>
+        <type>select</type>
+        <object-name>AGM-114</object-name>
+        <condition>
+            <not>
+                <property>fdm/jsbsim/systems/armament/station6/released</property>
+            </not>
+        </condition>
+    </animation>
+
+    <animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>12000</max-m>
+    </animation>
+
+</PropertyList>
