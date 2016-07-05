@@ -483,6 +483,10 @@
 			<file>Aircraft/MQ-9/Nasal/ENAV.nas</file>
 		</ENAV>
 		
+		<damage>
+			<file>Aircraft/MQ-9/Nasal/damage.nas</file>
+		</damage>
+		
 	</nasal>
  
 </PropertyList>
