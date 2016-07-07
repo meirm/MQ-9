@@ -174,6 +174,247 @@
  </ladder>
  
 	<label>
+		<name>TURRETHEADING</name>
+		<x>-65</x>
+		<y>110</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/sim/current-view/goal-heading-offset-deg</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.2f</format>
+		<halign>right</halign>
+		<prefix>BRG </prefix>
+	</label>
+	<label>
+		<name>TURRETPITCH</name>
+		<x>-65</x>
+		<y>100</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/sim/current-view/goal-pitch-offset-deg</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.2f</format>
+		<halign>right</halign>
+		<prefix>PITCH </prefix>
+	</label>
+	<label>
+		<name>TURRETROLL</name>
+		<x>-65</x>
+		<y>90</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/sim/current-view/goal-roll-offset-deg</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.2f</format>
+		<halign>right</halign>
+		<prefix>ROL </prefix>
+	</label>
+	<label>
+		<name>FOV</name>
+		<x>-65</x>
+		<y>80</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/sim/current-view/field-of-view</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.2f</format>
+		<halign>right</halign>
+		<prefix>FOV </prefix>
+	</label>
+	<label>
+		<name>ARMMSG</name>
+		<x>-65</x>
+		<y>-90</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/sim/current-view/</property>
+		</input>
+		<halign>right</halign>
+		<prefix>ARM </prefix>
+		<postfix> LTMC</postfix>
+	</label>
+	<label>
+		<name>TGTINFO</name>
+		<x>95</x>
+		<y>-70</y>
+		<input>
+		<property>/sim/</property>
+		</input>
+		<halign>left</halign>
+		<prefix>TGT</prefix>
+	</label>
+
+	<label>
+		<name>TGTLON</name>
+		<x>75</x>
+		<y>-80</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/position/longitude-deg</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.4f</format>
+		<halign>left</halign>
+		<prefix>LON </prefix>
+	</label>
+
+	<label>
+		<name>TGTLAT</name>
+		<x>75</x>
+		<y>-90</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/position/latitude-deg</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.4f</format>
+		<halign>left</halign>
+		<prefix>LAT </prefix>
+	</label>
+
+	<label>
+		<name>TGTAGL</name>
+		<x>75</x>
+		<y>-100</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/position/altitude-agl-ft</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.4f</format>
+		<halign>left</halign>
+		<prefix>AGL </prefix>
+	</label>
+
+	<label>
+		<name>TGTBRG</name>
+		<x>75</x>
+		<y>-110</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/orientation/heading-deg</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.2f</format>
+		<halign>left</halign>
+		<prefix>BRG </prefix>
+	</label>
+
+	<label>
+		<name>TGTRNGKM</name>
+		<x>75</x>
+		<y>-120</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/position/altitude-agl-ft</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.4f</format>
+		<halign>left</halign>
+		<prefix>RNG </prefix>
+	</label>
+
+	<label>
+		<name>TGTRNGNM</name>
+		<x>75</x>
+		<y>-130</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/position/altitude-agl-ft</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.4f</format>
+		<halign>left</halign>
+		<prefix>RNG </prefix>
+	</label>
+
+	<label>
+		<name>AIRCRAFTINFO</name>
+		<x>95</x>
+		<y>110</y>
+		<input>
+		<property>/sim/</property>
+		</input>
+		<halign>left</halign>
+		<prefix>ACFT</prefix>
+	</label>
+
+	<label>
+		<name>LON</name>
+		<x>75</x>
+		<y>100</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/position/longitude-deg</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.4f</format>
+		<halign>left</halign>
+		<prefix>LON </prefix>
+	</label>
+
+	<label>
+		<name>LAT</name>
+		<x>75</x>
+		<y>90</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/position/latitude-deg</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.4f</format>
+		<halign>left</halign>
+		<prefix>LAT </prefix>
+	</label>
+
+	<label>
+		<name>AGL</name>
+		<x>75</x>
+		<y>80</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/position/altitude-agl-ft</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.4f</format>
+		<halign>left</halign>
+		<prefix>AGL </prefix>
+	</label>
+
+	<label>
+		<name>ACFTBRG</name>
+		<x>75</x>
+		<y>70</y>
+		<width>1</width>
+		<height>1</height>
+		<input>
+			<property>/orientation/heading-deg</property>
+            <factor>1.0</factor>
+		</input>
+		<format>%3.2f</format>
+		<halign>left</halign>
+		<prefix>BRG </prefix>
+	</label>
+
+	<label>
 		<name>IAS</name>
 		<x>-55</x>
 		<y>50</y>
