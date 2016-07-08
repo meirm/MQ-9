@@ -305,12 +305,11 @@
 		<width>1</width>
 		<height>1</height>
 		<input>
-			<property>/orientation/heading-deg</property>
+			<property>/tracking/bearing</property>
             <factor>1.0</factor>
 		</input>
-		<format>%3.2f</format>
+		<format>BRG   %3.2f</format>
 		<halign>left</halign>
-		<prefix>BRG </prefix>
 	</label>
 
 	<label>
@@ -320,12 +319,11 @@
 		<width>1</width>
 		<height>1</height>
 		<input>
-			<property>/position/altitude-agl-ft</property>
+			<property>/tracking/rng-km</property>
             <factor>1.0</factor>
 		</input>
-		<format>%3.4f</format>
+		<format>RNG   %3.2f</format>
 		<halign>left</halign>
-		<prefix>RNG </prefix>
 	</label>
 
 	<label>
@@ -335,12 +333,11 @@
 		<width>1</width>
 		<height>1</height>
 		<input>
-			<property>/position/altitude-agl-ft</property>
+			<property>/tracking/rng-nml</property>
             <factor>1.0</factor>
 		</input>
-		<format>%3.4f</format>
+		<format>RNG   %3.2f</format>
 		<halign>left</halign>
-		<prefix>RNG </prefix>
 	</label>
 
 	<label>
