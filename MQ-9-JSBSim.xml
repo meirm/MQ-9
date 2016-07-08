@@ -85,7 +85,7 @@
      <z>   -10.82 </z>
    </location>
    <pointmass name="Payload">
-    <description> 4039.89 LBS should bring model up to entered max weight</description>
+    <description> 4039.89 LBS + full (1280 LBS) fuel should bring model up to entered max weight</description>
     <weight unit="LBS">   2019.94 </weight>
     <location name="POINTMASS" unit="IN">
       <x> 207.84 </x>

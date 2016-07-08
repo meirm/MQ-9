@@ -463,6 +463,10 @@
 			<file>Aircraft/MQ-9/Nasal/Crash.nas</file>
 		</Crash>
 		
+		<Tracking>
+			<file>Aircraft/MQ-9/Nasal/Tracking.nas</file>
+		</Tracking>
+
 		<Turret>
 			<file>Aircraft/MQ-9/Nasal/Turret.nas</file>
 		</Turret>
