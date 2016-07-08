@@ -322,7 +322,7 @@
 			<property>/tracking/rng-km</property>
             <factor>1.0</factor>
 		</input>
-		<format>RNG   %3.2f</format>
+		<format>RNG KM    %3.2f</format>
 		<halign>left</halign>
 	</label>
 
@@ -336,7 +336,7 @@
 			<property>/tracking/rng-nml</property>
             <factor>1.0</factor>
 		</input>
-		<format>RNG   %3.2f</format>
+		<format>RNG NML   %3.2f</format>
 		<halign>left</halign>
 	</label>
 
@@ -413,21 +413,21 @@
 
 	<label>
 		<name>IAS</name>
-		<x>-55</x>
-		<y>50</y>
+		<x>75</x>
+		<y>60</y>
 		<width>1</width>
 		<height>1</height>
 		<input>
-			<property>/velocities/airspeed-kt</property>
-            <factor>1.852</factor>
+		<property>/velocities/airspeed-kt</property>
+       		<factor>1.852</factor>
 		</input>
-		<format>%4.0f</format>
-		<halign>right</halign>
+		<format>IAS   %4.0f</format>
+		<halign>left</halign>
 	</label>
 
 	<label>
 		<name>Altitude</name>
-		<x>85</x>
+		<x>120</x>
 		<y>50</y>
 		<width>1</width>
 		<height>1</height>
@@ -435,9 +435,10 @@
 			<property>/position/altitude-ft</property>
             <factor>0.3048</factor>
 		</input>
-		<format>%5.0f</format>
+		<format>ALT %5.0f</format>
 		<halign>right</halign>
 	</label>
+   <!-- 
     
     <label>
 		<name>Acceleration</name>
@@ -448,10 +449,9 @@
 		<input>
 			<property>/accelerations/pilot-gdamped</property>
 		</input>
-		<format>%2.1f</format>
+		<format>A %2.1f</format>
 		<halign>right</halign>
 	</label>
-    
     <label>
 		<name>Mach</name>
 		<x>-30</x>
@@ -464,7 +464,7 @@
 		<format>%1.2f</format>
 		<halign>right</halign>
 	</label>
-
+-->
 	<aiming-reticle>
 		<x>5</x>
 		<y>0</y>
