@@ -260,7 +260,7 @@
 		<width>1</width>
 		<height>1</height>
 		<input>
-			<property>/position/longitude-deg</property>
+			<property>/sim/input/click/longitude-deg</property>
             <factor>1.0</factor>
 		</input>
 		<format>%3.4f</format>
@@ -275,7 +275,7 @@
 		<width>1</width>
 		<height>1</height>
 		<input>
-			<property>/position/latitude-deg</property>
+			<property>/sim/input/click/latitude-deg</property>
             <factor>1.0</factor>
 		</input>
 		<format>%3.4f</format>
@@ -284,18 +284,18 @@
 	</label>
 
 	<label>
-		<name>TGTAGL</name>
+		<name>TGTELEV</name>
 		<x>75</x>
 		<y>-100</y>
 		<width>1</width>
 		<height>1</height>
 		<input>
-			<property>/position/altitude-agl-ft</property>
+			<property>/sim/input/click/elevation-m</property>
             <factor>1.0</factor>
 		</input>
 		<format>%3.4f</format>
 		<halign>left</halign>
-		<prefix>AGL </prefix>
+		<prefix>ELEV </prefix>
 	</label>
 
 	<label>
