@@ -6,8 +6,8 @@
 		
 		<model>
 			<livery>
-				<name type="string">United States Air Force</name>
-				<texture>Liveries/MQ-9.jpg</texture>
+				<name type="string">FGUK North Theatre OPS</name>
+				<texture>Liveries/FGUK.jpg</texture>
 			</livery>
 		</model>
 		

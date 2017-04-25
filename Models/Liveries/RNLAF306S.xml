@@ -6,8 +6,8 @@
 		
 		<model>
 			<livery>
-				<name type="string">United States Air Force</name>
-				<texture>Liveries/MQ-9.jpg</texture>
+				<name type="string">RNLAF 306 Sqn</name>
+				<texture>Liveries/RNLAF306S.jpg</texture>
 			</livery>
 		</model>
 		

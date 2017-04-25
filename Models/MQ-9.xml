@@ -357,7 +357,7 @@
 		<object-name>MQ-9</object-name>
 		<property-base>sim/model/livery</property-base>
 		<texture-prop>texture</texture-prop>
-		<texture>Aircraft/MQ-9/Models/Liveries/Default.jpg</texture>
+		<texture>Aircraft/MQ-9/Models/Liveries/MQ-9.jpg</texture>
 	</animation>
 	
 	<animation>
