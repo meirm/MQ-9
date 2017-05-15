@@ -6,8 +6,8 @@
 		
 		<model>
 			<livery>
-				<name type="string">United States Air Force</name>
-				<texture>Liveries/MQ-9.jpg</texture>
+				<name type="string">NASA Ikhana Project</name>
+				<texture>Liveries/NASA.jpg</texture>
 			</livery>
 		</model>
 		

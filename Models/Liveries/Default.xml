@@ -6,8 +6,8 @@
 		
 		<model>
 			<livery>
-				<name type="string">United States Air Force</name>
-				<texture>Liveries/MQ-9.jpg</texture>
+				<name type="string">Default - USAF 142ATW NY ANG</name>
+				<texture>Liveries/Default.jpg</texture>
 			</livery>
 		</model>
 		

@@ -5,7 +5,7 @@ Author:		Petar Jedvaj (pjedvaj)
 Date:   	3 Jul 2016
 License:	GNU General Public License
 FDM: JSBSim
-Addons: Bombable, Walker
+Addons: Bombable, Walker, MP damage code.
 
 **************** Splash screen and thumbnail photos are downloaded from Wikimedia Commons ***************
 ***************************** Data used for devlopment are taken from Wikipedia *************************

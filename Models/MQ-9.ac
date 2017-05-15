@@ -363,7 +363,7 @@ kids 39
 OBJECT poly
 name "AileronL"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 336
 0.40538 -0.427044 6.10711
@@ -2905,7 +2905,7 @@ kids 0
 OBJECT poly
 name "AileronR"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 336
 0.405379 -0.427042 -6.10711
@@ -5447,7 +5447,7 @@ kids 0
 OBJECT poly
 name "Antennas"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 3539
 -0.334625 -0.425939 -7.09598
@@ -33018,7 +33018,7 @@ kids 0
 OBJECT poly
 name "Blades"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 423
 4.25986 -0.137114 -0.153899
@@ -36137,7 +36137,7 @@ kids 0
 OBJECT poly
 name "ElevatorL"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 340
 3.20876 0.948071 2.07554
@@ -38725,7 +38725,7 @@ kids 0
 OBJECT poly
 name "ElevatorR"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 340
 3.20876 0.948071 -2.07554
@@ -41313,7 +41313,7 @@ kids 0
 OBJECT poly
 name "Engine"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 1689
 1.74316 0.225238 0.0032469
@@ -54693,7 +54693,7 @@ kids 0
 OBJECT poly
 name "FlapL1"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 251
 0.383878 -0.198953 1.55702
@@ -56632,7 +56632,7 @@ kids 0
 OBJECT poly
 name "FlapL2"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 187
 0.383878 -0.22759 4.15203
@@ -58059,7 +58059,7 @@ kids 0
 OBJECT poly
 name "FlapR1"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 251
 0.383878 -0.198953 -1.55702
@@ -59998,7 +59998,7 @@ kids 0
 OBJECT poly
 name "FlapR2"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 187
 0.383878 -0.227588 -4.15203
@@ -61425,7 +61425,7 @@ kids 0
 OBJECT poly
 name "Fuselage"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 7319
 0.552877 -0.343002 9.31399
@@ -118292,7 +118292,7 @@ kids 0
 OBJECT poly
 name "GearBoxB"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 319
 2.00264 -0.397682 0.454194
@@ -120517,7 +120517,7 @@ kids 0
 OBJECT poly
 name "GearBoxF"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 57
 -0.549842 -0.742394 -1e-07
@@ -120880,7 +120880,7 @@ kids 0
 OBJECT poly
 name "HellfirePylonL"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 238
 -0.994616 -0.802733 1.94589
@@ -122630,7 +122630,7 @@ kids 0
 OBJECT poly
 name "HellfirePylonR"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 238
 -0.994616 -0.802733 -1.94589
@@ -124380,7 +124380,7 @@ kids 0
 OBJECT poly
 name "HStabilizerL"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 603
 3.20876 0.888774 2.06587
@@ -128911,7 +128911,7 @@ kids 0
 OBJECT poly
 name "HStabilizerR"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 603
 3.20876 0.888774 -2.06587
@@ -133442,7 +133442,7 @@ kids 0
 OBJECT poly
 name "JawN"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 118
 -3.34989 -1.68083 0.104979
@@ -134360,7 +134360,7 @@ kids 0
 OBJECT poly
 name "Lights"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 183
 2.78223 0.669074 -0.0140444
@@ -135775,7 +135775,7 @@ kids 0
 OBJECT poly
 name "Propeller"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 194
 4.71532 0.0583465 -0.0793374
@@ -137441,7 +137441,7 @@ kids 0
 OBJECT poly
 name "PylonL1"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 405
 -0.811794 -0.457006 2.04736
@@ -140542,7 +140542,7 @@ kids 0
 OBJECT poly
 name "PylonL2"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 405
 -0.882646 -0.457006 1.18461
@@ -143643,7 +143643,7 @@ kids 0
 OBJECT poly
 name "PylonR1"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 405
 -0.811795 -0.457006 -2.04736
@@ -146744,7 +146744,7 @@ kids 0
 OBJECT poly
 name "PylonR2"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 405
 -0.882646 -0.457006 -1.18461
@@ -149845,7 +149845,7 @@ kids 0
 OBJECT poly
 name "Rudder"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 311
 3.13551 -1.03335 0.0641197
@@ -152206,7 +152206,7 @@ kids 0
 OBJECT poly
 name "Scissor1N"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 34
 -3.13067 -1.58151 -0.0722363
@@ -152488,7 +152488,7 @@ kids 0
 OBJECT poly
 name "Scissor2N"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 60
 -2.88295 -1.13603 -0.0526668
@@ -153024,7 +153024,7 @@ kids 0
 OBJECT poly
 name "Sensor"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 2400
 -4.57771 -1.03412 -0.0109268
@@ -172384,7 +172384,7 @@ kids 0
 OBJECT poly
 name "SensorMount1"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 436
 -4.37581 -0.72585 0.269207
@@ -175444,7 +175444,7 @@ kids 0
 OBJECT poly
 name "SensorMount2"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 104
 -4.69901 -0.582895 0.0640987
@@ -176284,7 +176284,7 @@ kids 0
 OBJECT poly
 name "Strut1N"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 304
 -3.3214 -1.44725 -0.0344578
@@ -178756,7 +178756,7 @@ kids 0
 OBJECT poly
 name "Strut2N"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 110
 -2.90214 -1.30022 -0.110746
@@ -179690,7 +179690,7 @@ kids 0
 OBJECT poly
 name "StrutL"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 213
 -0.35147 -1.77434 1.55963
@@ -181339,7 +181339,7 @@ kids 0
 OBJECT poly
 name "StrutR"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 213
 -0.35147 -1.77434 -1.55963
@@ -182988,7 +182988,7 @@ kids 0
 OBJECT poly
 name "VStabilizer"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 465
 3.13551 -1.07528 0.107143
@@ -186501,7 +186501,7 @@ kids 0
 OBJECT poly
 name "WheelL"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 1110
 -0.429736 -1.84946 1.73691
@@ -195631,7 +195631,7 @@ kids 0
 OBJECT poly
 name "WheelN"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 866
 -3.20969 -1.88934 0.114236
@@ -202713,7 +202713,7 @@ kids 0
 OBJECT poly
 name "WheelR"
 loc 0.295158 0.778684 -2e-07
-texture "Liveries/Default.jpg"
+texture "Liveries/MQ-9.jpg"
 crease 30.000000
 numvert 1110
 -0.429736 -1.84946 -1.73691
