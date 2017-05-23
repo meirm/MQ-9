@@ -385,7 +385,7 @@
 		<type>rotate</type>
 		<object-name>AileronR</object-name>
 		<property>surface-positions/left-aileron-pos-norm</property>
-		<factor>20</factor>
+		<factor>-20</factor>
 		<axis>   
 			<x1-m>  0.6977</x1-m>
 			<y1-m>  5.5070</y1-m>
@@ -399,8 +399,8 @@
 	<animation>
 		<type>rotate</type>
 		<object-name>AileronL</object-name>
-		<property>surface-positions/left-aileron-pos-norm</property>
-		<factor>20</factor>
+		<property>surface-positions/right-aileron-pos-norm</property>
+		<factor>-20</factor>
 		<axis>   
 			<x1-m>  0.6977</x1-m>
 			<y1-m> -5.5070</y1-m>
@@ -479,7 +479,7 @@
 		<type>rotate</type>
 		<object-name>ElevatorR</object-name>
 		<property>surface-positions/elevator-pos-norm</property>
-		<factor>-20</factor>
+		<factor>20</factor>
 		<axis>   
 			<x1-m> 3.4018</x1-m>
 			<y1-m> 0.4181</y1-m>
@@ -494,7 +494,7 @@
 		<type>rotate</type>
 		<object-name>ElevatorL</object-name>
 		<property>surface-positions/elevator-pos-norm</property>
-		<factor>20</factor>
+		<factor>-20</factor>
 		<axis>   
 			<x1-m> 3.4018</x1-m>
 			<y1-m>-0.4181</y1-m>
@@ -511,7 +511,7 @@
 		<type>rotate</type>
 		<object-name>Rudder</object-name>
 		<property>surface-positions/rudder-pos-norm</property>
-		<factor>20</factor>
+		<factor>-20</factor>
 		<axis>   
 			<x1-m> 3.3652</x1-m>
 			<y1-m> 0.0000</y1-m>
