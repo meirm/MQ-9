@@ -6,14 +6,41 @@
         <enable-hot type="bool">false</enable-hot>
     </animation>
     
+    <effect>  
+        <inherits-from>Aircraft/MQ-9/Models/Effects/glass/glassIR</inherits-from>  
+        <object-name>GBU-12_Glass</object-name> 
+    </effect>
+    
     <animation>
         <type>select</type>
+        <object-name>GBU-12_Glass</object-name>
         <object-name>GBU-12</object-name>
+        <object-name>GBU-12_Hooks</object-name>
+        <object-name>GBU-12_Tail</object-name>
+        <object-name>GBU-12_FrontWing</object-name>
+        <object-name>GBU-12_Wing.001</object-name>
+        <object-name>GBU-12_Wing.002</object-name>
+        <object-name>GBU-12_Wing.003</object-name>
+        <object-name>GBU-12_Wing.004</object-name>
         <condition>
             <not>
-                <property>fdm/jsbsim/systems/armament/station3/released</property>
+                <property>fdm/jsbsim/systems/armament/station4/released</property>
             </not>
         </condition>
+    </animation>
+
+    <animation>
+    <type>select</type>
+    <object-name>GBU-12_Wing.001</object-name>
+    <object-name>GBU-12_Wing.002</object-name>
+    <object-name>GBU-12_Wing.003</object-name>
+    <object-name>GBU-12_Wing.004</object-name>
+    <condition>
+      <equals>
+        <value>0</value>
+        <value>1</value>
+      </equals>
+    </condition>
     </animation>
 
     <animation>

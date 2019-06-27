@@ -45,7 +45,7 @@
 		<offsets>
 			<x-m>-0.6217</x-m>
 			<y-m>-1.2284</y-m>
-			<z-m> 0.0517</z-m>
+			<z-m>-0.043</z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -55,9 +55,29 @@
 		<offsets>
 			<x-m>-0.6217</x-m>
 			<y-m> 1.2284</y-m>
-			<z-m> 0.0517</z-m>
+			<z-m>-0.043</z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
+
+	<!--model>
+		<path>Aircraft/MQ-9/Models/Stores/GBU-54/GBU-54-3.xml</path>
+		<offsets>
+			<x-m>-0.1817</x-m>
+			<y-m>-1.2284</y-m>
+			<z-m>-0.0425</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+    
+	<model>
+		<path>Aircraft/MQ-9/Models/Stores/GBU-54/GBU-54-4.xml</path>
+		<offsets>
+			<x-m>-0.1817</x-m>
+			<y-m> 1.2284</y-m>
+			<z-m>-0.0425</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model-->
 	
 </PropertyList>

@@ -148,4 +148,70 @@
         <submodel-path>Aircraft/MQ-9/Models/Effects/Bomb/Bomb-Submodel.xml</submodel-path>  
     </submodel>
 
+    <submodel>
+        <name>GBU-12-3</name>
+        <model>Aircraft/MQ-9/Models/Stores/GBU-12/GBU-12-3.xml</model>
+        <trigger>fdm/jsbsim/systems/armament/station3/released</trigger>
+        <trigger-once>true</trigger-once>
+        <speed>0.0</speed>
+        <count>1</count>
+        <x-offset>0</x-offset>
+        <y-offset>-1.2308</y-offset>
+        <z-offset>-1</z-offset>
+        <yaw-offset>0.0</yaw-offset>
+        <pitch-offset>-4.0</pitch-offset>
+        <eda>1.0</eda>
+        <weight>520.0</weight>
+        <cd>0.3</cd>
+        <collision>true</collision>
+        <collision-report>sim/ai/aircraft/collision/cannon</collision-report>
+        <impact>true</impact>
+        <impact-report>sim/ai/aircraft/impact/bomb</impact-report>
+        <submodel-path>Aircraft/MQ-9/Models/Effects/Bomb/Bomb-Submodel.xml</submodel-path>  
+    </submodel>
+	
+	<!--submodel>
+        <name>GBU-54-4</name>
+        <model>Aircraft/MQ-9/Models/Stores/GBU-54/GBU-54-4.xml</model>
+        <trigger>fdm/jsbsim/systems/armament/station4/released</trigger>
+        <trigger-once>true</trigger-once>
+        <speed>0.0</speed>
+        <count>1</count>
+        <x-offset>0</x-offset>
+        <y-offset>1.2308</y-offset>
+        <z-offset>-1</z-offset>
+        <yaw-offset>0.0</yaw-offset>
+        <pitch-offset>-4.0</pitch-offset>
+        <eda>1.0</eda>
+        <weight>520.0</weight>
+        <cd>0.3</cd>
+        <collision>true</collision>
+        <collision-report>sim/ai/aircraft/collision/cannon</collision-report>
+        <impact>true</impact>
+        <impact-report>sim/ai/aircraft/impact/bomb</impact-report>
+        <submodel-path>Aircraft/MQ-9/Models/Effects/Bomb/Bomb-Submodel.xml</submodel-path>  
+    </submodel>
+
+    <submodel>
+        <name>GBU-54-3</name>
+        <model>Aircraft/MQ-9/Models/Stores/GBU-54/GBU-54-3.xml</model>
+        <trigger>fdm/jsbsim/systems/armament/station3/released</trigger>
+        <trigger-once>true</trigger-once>
+        <speed>0.0</speed>
+        <count>1</count>
+        <x-offset>0</x-offset>
+        <y-offset>-1.2308</y-offset>
+        <z-offset>-1</z-offset>
+        <yaw-offset>0.0</yaw-offset>
+        <pitch-offset>-4.0</pitch-offset>
+        <eda>1.0</eda>
+        <weight>520.0</weight>
+        <cd>0.3</cd>
+        <collision>true</collision>
+        <collision-report>sim/ai/aircraft/collision/cannon</collision-report>
+        <impact>true</impact>
+        <impact-report>sim/ai/aircraft/impact/bomb</impact-report>
+        <submodel-path>Aircraft/MQ-9/Models/Effects/Bomb/Bomb-Submodel.xml</submodel-path>  
+    </submodel-->
+
 </PropertyList>
