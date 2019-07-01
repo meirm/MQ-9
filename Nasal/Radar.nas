@@ -19,6 +19,7 @@ MPleave= func(n) {
    setprop("instrumentation/radar",n.getValue(),"joined",0);
 }
 
+setprop("sim/multiplay/visibility-range-nm", 115);
 
 #need to copy the properties so that we never try to access a non-existent property in XML
 MPradarProperties = func {
