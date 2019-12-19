@@ -20,6 +20,7 @@
 		<startup>
 			<splash-texture>Aircraft/MQ-9/Splash2.png</splash-texture>
 		</startup>
+		<minimum-fg-version>2018.2</minimum-fg-version>
 	
 	    <model>
 			<path>Aircraft/MQ-9/Models/MQ-9-2.xml</path>

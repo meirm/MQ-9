@@ -4,7 +4,7 @@
 
 	<sim>
 	
-		<description>General Atomics MQ-9 Reaper bombable</description>
+		<description>General Atomics MQ-9 Reaper (bombable)</description>
 		<aircraft-version>1.2</aircraft-version>
 		<author>Petar Jedvaj</author>
 		<status>Alpha</status>
@@ -20,6 +20,7 @@
 		<startup>
 			<splash-texture>Aircraft/MQ-9/Splash.png</splash-texture>
 		</startup>
+		<minimum-fg-version>2018.2</minimum-fg-version>
 	
 	    <model>
 			<path>Aircraft/MQ-9/Models/MQ-9.xml</path>
