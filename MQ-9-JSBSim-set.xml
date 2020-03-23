@@ -6,13 +6,13 @@
 	
 		<description>General Atomics MQ-9 Reaper (bombable)</description>
 		<aircraft-version>1.2</aircraft-version>
-		<author>Petar Jedvaj</author>
+		<author>Petar Jedvaj, J Maverick 16</author>
 		<status>Alpha</status>
 		<rating>
 			<FDM type="int">1</FDM>
 			<systems type="int">1</systems>
 			<cockpit type="int">1</cockpit>
-			<model type="int">1</model>
+			<model type="int">2</model>
 		</rating>
 		<flight-model>jsb</flight-model>
 		<aero>MQ-9-JSBSim</aero>
@@ -206,6 +206,14 @@
 		</help>
 		
 	</sim>
+
+	<!-- MP Damage -->
+
+	<payload>
+		<armament>
+			<msg type="bool">true</msg>
+		</armament>
+	</payload>
 	
 	<!-- Armament -->
 	
